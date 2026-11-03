@@ -31,7 +31,7 @@ const generateDataForEntities = (entities) => {
     basketSize: Math.floor(Math.random() * 40) + 60,
     traffic: Math.floor(Math.random() * 40) + 60,
     returning: Math.floor(Math.random() * 40) + 60,
-    satisfaction: Math.floor(Math.random() * 20) + 80,
+    satisfaction: Math.round(4.87 * 20), // real system avg ≈ 4.87/5
   }));
 };
 
